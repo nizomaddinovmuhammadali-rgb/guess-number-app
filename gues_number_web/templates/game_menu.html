@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Меню игры</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Добро пожаловать, {{ user }}!</h1>
+
+        <h2>Новая игра</h2>
+        <form action="{{ url_for('new_game') }}" method="post">
+            <div>
+                <label>Режим игры:</label>
+                <select name="mode" required>
+                    <option value="standard">Стандартный (вы угадываете)</option>
+                    <option value="reverse">Обратный (компьютер угадывает)</option>
+                    <option value="timed">На время</option>
+                </select>
+            </div>
+            <div>
+                <label>Уровень сложности:</label>
+                <select name="difficulty" required>
+                    <option value="easy">Лёгкий (1–50)</option>
+                    <option value="medium">Средний (1–100)</option>
+                    <option value="hard">Сложный (1–500)</option>
+                </select>
+            </div>
+            <button type="submit">Начать игру</button>
+        </form>
+
+        <h2>Другие действия</h2>
+        <ul>
+            <li><a href="{{ url_for('saves_list') }}">Загрузить игру</a></li>
+            <li><a href="{{ url_for('stats_page') }}">Статистика</a></li>
+            <li><a href="{{ url_for('logout') }}">Выйти</a></li>
+        </ul>
+    </div>
+</body>
+</html>

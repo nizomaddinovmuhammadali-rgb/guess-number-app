@@ -1,0 +1,12 @@
+{
+    "user": "MALI",
+    "mode": "timed",
+    "difficulty": "hard",
+    "secret": 7,
+    "attempts": 0,
+    "guesses": [],
+    "low": 1,
+    "high": 500,
+    "hint_count": 0,
+    "max_hints": 3
+}

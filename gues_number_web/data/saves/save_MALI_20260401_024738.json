@@ -1,0 +1,12 @@
+{
+    "user": "MALI",
+    "mode": "reverse",
+    "difficulty": "easy",
+    "secret": 0,
+    "attempts": 2,
+    "guesses": [],
+    "low": 26,
+    "high": 37,
+    "hint_count": 0,
+    "max_hints": 3
+}

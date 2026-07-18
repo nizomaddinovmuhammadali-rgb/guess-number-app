@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра окончена</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .result {
+            text-align: center;
+            padding: 40px 20px;
+            border-radius: 20px;
+            margin: 20px 0;
+            animation: fadeIn 0.8s ease-out;
+        }
+        .victory {
+            background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+            color: #2c5e2e;
+            border: 2px solid #4caf50;
+        }
+        .defeat {
+            background: linear-gradient(135deg, #fbc2c2 0%, #ff9a9e 100%);
+            color: #a33;
+            border: 2px solid #ff6b6b;
+        }
+        .message {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .details {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        .emoji {
+            font-size: 5rem;
+            display: block;
+            margin-bottom: 20px;
+        }
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        button, .btn {
+            padding: 12px 24px;
+            font-size: 1rem;
+            cursor: pointer;
+            border: none;
+            border-radius: 50px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            background: #667eea;
+            color: white;
+        }
+        button:hover, .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="result {% if won %}victory{% else %}defeat{% endif %}">
+            {% if won %}
+                <div class="emoji">🏆🎉🏆</div>
+                <div class="message">ПОБЕДА!</div>
+                <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
+                <script>
+                    canvasConfetti({ particleCount: 150, spread: 70, origin: { y: 0.6 } });
+                    setTimeout(() => canvasConfetti({ particleCount: 100, spread: 100, origin: { y: 0.5, x: 0.2 } }), 250);
+                    setTimeout(() => canvasConfetti({ particleCount: 100, spread: 100, origin: { y: 0.5, x: 0.8 } }), 500);
+                </script>v
+
+            {% else %}
+                <div class="emoji">😔💔😔</div>
+                <div class="message">ПОРАЖЕНИЕ</div>
+            {% endif %}
+            <div class="details">
+                {{ message }}
+                <br>
+                Режим: {{ mode }}<br>
+                Сложность: {{ difficulty }}<br>
+                Попыток: {{ attempts }}
+            </div>
+        </div>
+        
+        <div class="buttons">
+            <form action="{{ url_for('game_menu') }}" method="get">
+                <button type="submit">🏠 В главное меню</button>
+            </form>
+            <form action="{{ url_for('new_game') }}" method="post">
+                <input type="hidden" name="mode" value="{{ mode }}">
+                <input type="hidden" name="difficulty" value="{{ difficulty }}">
+                <button type="submit">🔄 Играть ещё (те же настройки)</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

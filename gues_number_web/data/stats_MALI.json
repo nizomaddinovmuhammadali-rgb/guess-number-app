@@ -1,0 +1,996 @@
+{
+    "games": [
+        {
+            "date": "2026-03-19 00:40:30",
+            "mode": "standard",
+            "difficulty": "medium",
+            "attempts": 6,
+            "guesses": [
+                1,
+                55,
+                88,
+                77,
+                80,
+                79
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-19 01:06:17",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-19 01:15:23",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-19 01:57:27",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [
+                4,
+                44,
+                12,
+                33,
+                40
+            ],
+            "won": false
+        },
+        {
+            "date": "2026-03-19 02:12:55",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 3,
+            "guesses": [
+                33,
+                50,
+                44
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-19 02:22:38",
+            "mode": "timed",
+            "difficulty": "hard",
+            "attempts": 4,
+            "guesses": [
+                444,
+                33,
+                150,
+                200
+            ],
+            "won": false
+        },
+        {
+            "date": "2026-03-19 02:33:46",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 4,
+            "guesses": [
+                44,
+                46,
+                48,
+                50
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-19 02:34:06",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 3,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-19 02:43:07",
+            "mode": "standard",
+            "difficulty": "hard",
+            "attempts": 13,
+            "guesses": [
+                444,
+                150,
+                50,
+                100,
+                120,
+                140,
+                138,
+                134,
+                132,
+                130,
+                128,
+                124,
+                122
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-19 02:43:52",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 6,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-19 02:47:05",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 18:48:10",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [
+                5,
+                34,
+                45,
+                46,
+                47
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 18:48:49",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 18:50:39",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 19:01:53",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 3,
+            "guesses": [
+                30,
+                20,
+                22
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 19:03:38",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 3,
+            "guesses": [
+                34,
+                40,
+                42
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 19:11:05",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 4,
+            "guesses": [
+                43,
+                22,
+                33,
+                42
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 19:16:28",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 2,
+            "guesses": [
+                8,
+                30
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 19:17:40",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-03-20 19:18:05",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 19:19:57",
+            "mode": "standard",
+            "difficulty": "hard",
+            "attempts": 8,
+            "guesses": [
+                95,
+                354,
+                232,
+                300,
+                299,
+                250,
+                260,
+                270
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 20:06:18",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 6,
+            "guesses": [
+                32,
+                12,
+                22,
+                15,
+                17,
+                18
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 20:28:39",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [
+                34,
+                32,
+                4,
+                3,
+                2
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 20:29:13",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 6,
+            "guesses": [
+                23,
+                44,
+                33,
+                40,
+                41,
+                42
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 20:31:38",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-03-20 20:35:57",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-03-20 20:36:31",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 7,
+            "guesses": [
+                23,
+                12,
+                15,
+                20,
+                19,
+                17,
+                16
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 20:52:09",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 9,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-03-20 20:52:22",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 3,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 20:53:16",
+            "mode": "timed",
+            "difficulty": "hard",
+            "attempts": 7,
+            "guesses": [
+                344,
+                222,
+                300,
+                320,
+                310,
+                315,
+                316
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-20 20:55:51",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 8,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-21 22:58:50",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 4,
+            "guesses": [
+                32,
+                43,
+                35,
+                40
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-21 23:01:20",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 3,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-21 23:12:18",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 3,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-21 23:45:43",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 7,
+            "guesses": [
+                14,
+                4,
+                7,
+                8,
+                9,
+                12,
+                13
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-21 23:51:47",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-21 23:56:36",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-21 23:58:43",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-21 23:59:20",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [
+                43,
+                12,
+                3,
+                5,
+                8
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-22 00:00:46",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-22 00:00:54",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-22 00:00:59",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-22 00:03:35",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-03-22 00:05:58",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-03-22 17:47:48",
+            "mode": "timed",
+            "difficulty": "hard",
+            "attempts": 11,
+            "guesses": [
+                67,
+                444,
+                333,
+                122,
+                233,
+                250,
+                300,
+                320,
+                310,
+                315,
+                317
+            ],
+            "won": false
+        },
+        {
+            "date": "2026-03-22 17:48:56",
+            "mode": "timed",
+            "difficulty": "hard",
+            "attempts": 11,
+            "guesses": [
+                444,
+                100,
+                55,
+                33,
+                5,
+                22,
+                15,
+                10,
+                8,
+                6,
+                7
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-22 17:50:46",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [
+                1,
+                22,
+                10,
+                5,
+                8
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-22 17:51:19",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 3,
+            "guesses": [
+                22,
+                50,
+                43
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-22 17:52:54",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 7,
+            "guesses": [
+                50,
+                43,
+                20,
+                30,
+                33,
+                40,
+                42
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-22 17:54:09",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 6,
+            "guesses": [
+                50,
+                49,
+                30,
+                20,
+                26,
+                25
+            ],
+            "won": false
+        },
+        {
+            "date": "2026-03-22 17:54:56",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [
+                22,
+                44,
+                48,
+                49,
+                50
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-22 17:55:40",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 3,
+            "guesses": [
+                45,
+                23,
+                30
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-25 23:34:37",
+            "mode": "timed",
+            "difficulty": "hard",
+            "attempts": 11,
+            "guesses": [
+                54,
+                444,
+                333,
+                222,
+                250,
+                300,
+                280,
+                290,
+                295,
+                298,
+                297
+            ],
+            "won": false
+        },
+        {
+            "date": "2026-03-25 23:35:39",
+            "mode": "timed",
+            "difficulty": "hard",
+            "attempts": 10,
+            "guesses": [
+                295,
+                400,
+                450,
+                430,
+                415,
+                408,
+                415,
+                411,
+                412,
+                413
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-25 23:37:43",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 7,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-25 23:37:56",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 4,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-25 23:38:11",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 6,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-25 23:38:29",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 7,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-25 23:38:45",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 8,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-25 23:39:14",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 8,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-04-01 02:48:26",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 4,
+            "guesses": [
+                42,
+                23,
+                2,
+                13
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-04-01 03:03:58",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 6,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-04-01 03:04:47",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 9,
+            "guesses": [
+                24,
+                50,
+                44,
+                33,
+                37,
+                40,
+                37,
+                38,
+                39
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-04-01 03:13:55",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 0,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-04-01 03:15:01",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 8,
+            "guesses": [
+                45,
+                32,
+                12,
+                22,
+                32,
+                28,
+                30,
+                29
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-04-03 23:24:54",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 6,
+            "guesses": [
+                34,
+                12,
+                4,
+                5,
+                8,
+                10
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-04-03 23:25:47",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 8,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-04-03 23:26:49",
+            "mode": "timed",
+            "difficulty": "hard",
+            "attempts": 12,
+            "guesses": [
+                45,
+                444,
+                333,
+                370,
+                350,
+                340,
+                348,
+                346,
+                345,
+                344,
+                343,
+                341
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-04-05 19:28:55",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 8,
+            "guesses": [
+                50,
+                29,
+                20,
+                10,
+                4,
+                7,
+                5,
+                6
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-04-05 19:30:21",
+            "mode": "timed",
+            "difficulty": "hard",
+            "attempts": 15,
+            "guesses": [
+                55,
+                444,
+                333,
+                60,
+                200,
+                400,
+                350,
+                300,
+                332,
+                320,
+                315,
+                310,
+                306,
+                308,
+                308
+            ],
+            "won": false
+        },
+        {
+            "date": "2026-04-05 20:08:11",
+            "mode": "standard",
+            "difficulty": "hard",
+            "attempts": 20,
+            "guesses": [
+                500,
+                444,
+                333,
+                222,
+                120,
+                56,
+                99,
+                100,
+                250,
+                320,
+                320,
+                250,
+                100,
+                160,
+                140,
+                130,
+                120,
+                107,
+                103,
+                102
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-04-05 20:09:53",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 8,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-04-05 20:10:24",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 3,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-04-05 20:10:46",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 8,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-04-05 20:10:54",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 8,
+            "guesses": [],
+            "won": false
+        },
+        {
+            "date": "2026-04-05 20:11:13",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 8,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-04-05 20:11:23",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 8,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-04-06 12:45:44",
+            "mode": "reverse",
+            "difficulty": "hard",
+            "attempts": 6,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-04-08 01:53:30",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [
+                34,
+                45,
+                42,
+                38,
+                37
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-04-08 01:53:45",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 2,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-04-08 01:54:02",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 1,
+            "guesses": [
+                36
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-04-08 01:54:22",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 2,
+            "guesses": [
+                24,
+                50
+            ],
+            "won": false
+        },
+        {
+            "date": "2026-06-07 20:07:48",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 6,
+            "guesses": [
+                44,
+                34,
+                21,
+                28,
+                30,
+                29
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-06-07 20:08:41",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 2,
+            "guesses": [],
+            "won": true
+        }
+    ],
+    "total": 84,
+    "wins": 66,
+    "best_attempts": 0
+}

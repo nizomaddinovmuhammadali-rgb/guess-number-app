@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Игра</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .computer-guess {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #e0f7fa;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .feedback-buttons {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+        .feedback-buttons button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Игра</h1>
+        <p><strong>Пользователь:</strong> {{ session.user }}</p>
+        <p><strong>Режим:</strong> {{ game_state.mode }}</p>
+        <p><strong>Сложность:</strong> {{ game_state.difficulty }}</p>
+        <p><strong>Попыток:</strong> {{ game_state.attempts }}</p>
+
+        <!-- Блок для режима на время -->
+        {% if game_state.mode == 'timed' %}
+            <p><strong>Осталось времени:</strong> <span id="timer">{{ game_state.time_remaining }}</span> сек.</p>
+            <script>
+                // Передаём значения из Flask в JavaScript
+                var start_time = {{ game_state.start_time | int }};
+                var time_limit = {{ game_state.time_limit | int }};
+        
+                function updateTimer() {
+                    var now = Math.floor(Date.now() / 1000);
+                    var remaining = time_limit - (now - start_time);
+                    if (remaining < 0) remaining = 0;
+                    document.getElementById('timer').textContent = remaining;
+                }
+        
+                // Запускаем обновление каждую секунду
+                updateTimer();
+                setInterval(updateTimer, 1000);
+            </script>
+        {% endif %}
+
+        <!-- Обратный режим -->
+        {% if game_state.mode == 'reverse' %}
+            <div class="computer-guess">
+                Компьютер предполагает: {{ game_state.guess }}
+            </div>
+            
+            <form method="post" class="feedback-buttons">
+                <input type="hidden" name="action" value="reverse_answer">
+                <button type="submit" name="answer" value="<">Меньше (<)</button>
+                <button type="submit" name="answer" value="=">Угадал!</button>
+                <button type="submit" name="answer" value=">">Больше (>)</button>
+            </form>
+        {% else %}
+            <!-- Стандартный режим и режим на время (поле ввода числа) -->
+            <p><strong>Диапазон:</strong> {{ game_state.low }} – {{ game_state.high }}</p>
+            <form method="post">
+                <input type="hidden" name="action" value="guess">
+                <label>Ваше число:</label>
+                <input type="number" name="guess" min="{{ game_state.low }}" max="{{ game_state.high }}" required>
+                <button type="submit">Проверить</button>
+            </form>
+            
+            {% if game_state.mode == 'standard' or game_state.mode == 'timed' %}
+                <form method="post" style="display:inline;">
+                    <input type="hidden" name="action" value="hint">
+                    <button type="submit">💡 Подсказка (осталось {{ game_state.max_hints - game_state.hint_count }})</button>
+                </form>
+            {% endif %}
+        {% endif %}
+        
+        <!-- Кнопка сохранения (общая для всех режимов) -->
+        <form method="post" style="display:inline;">
+            <input type="hidden" name="action" value="save">
+            <button type="submit">Сохранить игру</button>
+        </form>
+        
+        <p><a href="{{ url_for('game_menu') }}">Выйти в меню</a></p>
+        
+        {% if message %}
+            <div class="message">{{ message }}</div>
+        {% endif %}
+        
+        {% if game_state.guesses %}
+            <h3>История попыток:</h3>
+            <ul>
+                {% for guess in game_state.guesses %}
+                    <li>{{ guess }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</body>
+</html>

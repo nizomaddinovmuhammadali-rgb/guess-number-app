@@ -1,0 +1,15 @@
+{
+    "user": "Ali",
+    "mode": "standard",
+    "difficulty": "easy",
+    "secret": 21,
+    "attempts": 2,
+    "guesses": [
+        32,
+        43
+    ],
+    "low": 1,
+    "high": 50,
+    "hint_count": 0,
+    "max_hints": 3
+}

@@ -1,0 +1,14 @@
+{
+    "user": "MALI",
+    "mode": "standard",
+    "difficulty": "easy",
+    "secret": 13,
+    "attempts": 1,
+    "guesses": [
+        42
+    ],
+    "low": 1,
+    "high": 50,
+    "hint_count": 0,
+    "max_hints": 3
+}

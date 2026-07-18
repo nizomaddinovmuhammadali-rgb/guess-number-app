@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Статистика</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Статистика пользователя {{ user }}</h1>
+        
+        {% if error %}
+            <p class="error">{{ error }}</p>
+        {% elif stats %}
+            <p><strong>Всего игр:</strong> {{ stats.total }}</p>
+            <p><strong>Побед:</strong> {{ stats.wins }}</p>
+            {% if stats.total > 0 %}
+                <p><strong>Процент побед:</strong> {{ (stats.wins / stats.total * 100) | round(1) }}%</p>
+            {% endif %}
+            <p><strong>Лучший результат (мин. попыток):</strong> {{ stats.best_attempts }}</p>
+
+            {% if chart %}
+                <h2>График прогресса (последние 10 игр)</h2>
+                <img src="{{ url_for('static', filename=chart) }}" alt="График прогресса" style="max-width: 100%; height: auto; margin: 20px 0;">
+            {% endif %}
+
+            <h2>Последние игры</h2>
+            <table border="1" cellpadding="5">
+                <tr>
+                    <th>Дата</th>
+                    <th>Режим</th>
+                    <th>Сложность</th>
+                    <th>Попытки</th>
+                    <th>Результат</th>
+                </tr>
+                {% for game in stats.games[-10:]|reverse %}
+                <tr>
+                    <td>{{ game.date }}</td>
+                    <td>{{ game.mode }}</td>
+                    <td>{{ game.difficulty }}</td>
+                    <td>{{ game.attempts }}</td>
+                    <td>{{ 'Победа' if game.won else 'Поражение' }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+            
+            <form action="{{ url_for('export_stats') }}" method="post">
+                <button type="submit">Экспорт статистики в файл</button>
+            </form>
+        {% endif %}
+        
+        <p><a href="{{ url_for('game_menu') }}">Вернуться в меню</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+{
+    "games": [
+        {
+            "date": "2026-03-09 02:26:21",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 8,
+            "guesses": [
+                23,
+                34,
+                33,
+                32,
+                26,
+                30,
+                29,
+                27
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-09 02:27:32",
+            "mode": "reverse",
+            "difficulty": "easy",
+            "attempts": 5,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-09 02:28:15",
+            "mode": "timed",
+            "difficulty": "easy",
+            "attempts": 4,
+            "guesses": [],
+            "won": true
+        },
+        {
+            "date": "2026-03-10 01:03:23",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 26,
+            "guesses": [
+                21,
+                1,
+                54,
+                54,
+                54,
+                54,
+                53,
+                66,
+                65,
+                45,
+                53,
+                532,
+                54,
+                34,
+                23,
+                22,
+                12,
+                2,
+                4,
+                6,
+                8,
+                9,
+                11,
+                13,
+                12,
+                10
+            ],
+            "won": true
+        },
+        {
+            "date": "2026-03-10 01:35:34",
+            "mode": "standard",
+            "difficulty": "easy",
+            "attempts": 3,
+            "guesses": [
+                23,
+                45,
+                43
+            ],
+            "won": true
+        }
+    ],
+    "total": 5,
+    "wins": 5,
+    "best_attempts": 3
+}

@@ -1,0 +1,18 @@
+{
+    "user": "MALI",
+    "mode": "timed",
+    "difficulty": "easy",
+    "secret": 39,
+    "attempts": 2,
+    "guesses": [
+        24,
+        50
+    ],
+    "low": 1,
+    "high": 50,
+    "hint_count": 0,
+    "max_hints": 3,
+    "guess": null,
+    "start_time": 1774994645.453304,
+    "time_limit": 60
+}
