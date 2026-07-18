@@ -1,2 +1,3 @@
 Flask
-genicorn
+matplotlib-base
+gunicorn
